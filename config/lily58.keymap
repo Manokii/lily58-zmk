@@ -59,7 +59,7 @@ label= "LOWER"                                                 ;
                      &trans &trans &trans    &trans   &trans    &kp DEL    &mo 3    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
 
         raise_layer {
@@ -80,7 +80,7 @@ label= "RAISE"                                                 ;
                          &trans &trans &mo 3     &trans   &trans    &trans    &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
 
 
@@ -102,7 +102,7 @@ label= "ADJUST"                                                 ;
                                               &trans            &trans       &trans    &trans   &trans    &trans  &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
     };
 };
