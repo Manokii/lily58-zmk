@@ -52,8 +52,8 @@ label= "LOWER"                                                 ;
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
 &trans &trans &trans  &trans  &trans  &trans                       &trans    &trans    &trans      &trans    &trans    &trans
-&trans &kp F1 &kp F2  &kp F3  &kp F4  &trans                       &trans    &kp RBRC  &kp UP      &kp GRAVE &kp GRAVE  &trans
-&trans &kp F5 &kp F6  &kp F7  &kp F8  &trans                       &kp LBRC  &kp LEFT  &kp DOWN    &kp RIGHT &trans    &trans 
+&trans &kp F1 &kp F2  &kp F3  &kp F4  &trans                       &trans    &kp GRAVE  &kp UP     &kp LBRC  &kp RBRC  &trans
+&trans &kp F5 &kp F6  &kp F7  &kp F8  &trans                       &kp GRAVE &kp LEFT  &kp DOWN    &kp RIGHT &trans    &trans 
 &trans &kp F9 &kp F10 &kp F11 &kp F12 &trans    &trans   &trans    &kp LBKT  &kp RBKT  &trans      &trans    &trans    &trans
                       &trans  &trans  &trans    &trans   &trans    &kp DEL   &mo 3     &trans
             >;
