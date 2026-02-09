@@ -10,7 +10,8 @@ include:
 
   - board: xiao_ble
     shield: lily58_dongle prospector_adapter
-    cmake-args: -DCONFIG_ZMK_STUDIO=n
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
 
   - board: nice_nano
     shield: lily58_left
