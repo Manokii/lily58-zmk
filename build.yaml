@@ -8,24 +8,23 @@ include:
   #   shield: lily58_dongle prospector_adapter
   #   # cmake-args: -DCONFIG_BUILD_OUTPUT_UF2=y
 
-  - board: nice_nano
-    shield: settings_reset
-    artifact-name: nice-nano-reset
+  - board: xiao_ble
+    shield: lily58_dongle prospector_adapter
+    artifact-name: prospector-screen
+    cmake-args: -DCONFIG_ZMK_STUDIO=n
 
   - board: nice_nano
     shield: lily58_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-    
   - board: nice_nano
     shield: lily58_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
+  - board: nice_nano
+    shield: settings_reset
+    artifact-name: nice-nano-reset
   - board: xiao_ble
     shield: settings_reset
     artifact-name: xiao-reset
-
-  - board: xiao_ble
-    shield: lily58_dongle prospector_adapter
-    artifact-name: prospector-screen
 
     
