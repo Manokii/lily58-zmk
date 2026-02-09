@@ -10,7 +10,6 @@ include:
 
   - board: xiao_ble
     shield: lily58_dongle prospector_adapter
-    artifact-name: prospector-screen
     cmake-args: -DCONFIG_ZMK_STUDIO=n
 
   - board: nice_nano
